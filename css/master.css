@@ -2,21 +2,27 @@
 .pic-border{
     position: relative;
     border-radius: 60px;
-    width:175px;
-    height:225px;
+    max-width:175px;
+    max-height:225px;
+    min-width: auto-fit;
+    min-height: auto-fit;
+    align-self: center;
     background-color: rgb(207, 204, 204);
     margin-top: 10%;
     margin-left: 20%;
     margin-bottom: 10%;
+    overflow: hidden;
 }
 .pic-border img{
     position: relative;
-    height: 201px;
-    width: 152px;
+    max-height: 201px;
+    max-width: 152px;
+    min-width: auto-fit;
+    min-height: auto-fit;
     border-radius: 55px;
     margin-top: 7%;
     margin-left: 7%;
-    margin-bottom: 3%;
+    margin-bottom: 4%;
 }
 #portfolio{
     text-align: center;
